@@ -15,8 +15,11 @@ def main(playlist):
     video_playlist = []
 
     # youtube file formats
-    yt_fmts = ['MOV', 'MPEG4', 'MP4', 'AVI', 'WMV', 'MPEGPS', 'FLV',
-            '3GPP', 'WebM', 'DNxHR', 'ProRes', 'CineForm', 'HEVC', "MKV"]
+    yt_fmts = [
+        'MOV', 'MPEG4', 'MP4', 'AVI', 'WMV', 'MPEGPS',
+        'FLV', '3GPP', 'WebM', 'DNxHR', 'ProRes',
+        'CineForm', 'HEVC', "MKV"
+    ]
 
     # read the ids into a file
     # https://www.reddit.com/r/lifehacks/comments/4ko6od/request_get_a_list_of_urls_in_a_youtube_playlist/?utm_source=share&utm_medium=web2x&context=3
@@ -52,5 +55,5 @@ def main(playlist):
 
 
 if __name__ == "__main__":
-    playlist=sys.argv[1]
+    playlist = sys.argv[1]
     main(playlist)

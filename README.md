@@ -2,8 +2,8 @@
 After downloading videos from yt, you realized that the order of the video has changed. It will take you time to rename all of them one after the other.
 
 ## run script
-- download or put `script.py` into the videos folder
-- open the folder on the terminal
+- download or put `script.py` into the said videos folder
+- open the folder in the terminal
 - run `python script.py yt-playlist-url`
 
 ## You can modify the scripts
